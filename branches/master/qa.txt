@@ -1,0 +1,35 @@
+ExampleIG : Validation Results
+=========================================
+
+err = 3, warn = 6, info = 0
+IG Publisher Version: 1.5.16
+Generated Wed Feb 28 09:08:50 UTC 2024. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 13 / 5 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-KenyaClaim : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+ERROR: /github/workspace/output/StructureDefinition-KenyaClaim-definitions.html#/html/body/div/div/div/a/img at Line 65, column 78: The image source 'assets/images/hl7-be.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-KenyaClaim-examples.html#/html/body/div/div/div/a/img at Line 65, column 78: The image source 'assets/images/hl7-be.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-KenyaClaim-mappings.html#/html/body/div/div/div/a/img at Line 65, column 78: The image source 'assets/images/hl7-be.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-KenyaClaim-testing.html#/html/body/div/div/div/a/img at Line 65, column 78: The image source 'assets/images/hl7-be.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-KenyaClaim.html#/html/body/div/div/div/a/img at Line 65, column 78: The image source 'assets/images/hl7-be.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-KenyaClaim.profile.history.html#/html/body/div/div/div/a/img at Line 65, column 78: The image source 'assets/images/hl7-be.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-KenyaClaim.profile.json.html#/html/body/div/div/div/a/img at Line 69, column 78: The image source 'assets/images/hl7-be.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-KenyaClaim.profile.ttl.html#/html/body/div/div/div/a/img at Line 69, column 78: The image source 'assets/images/hl7-be.png' cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-KenyaClaim.profile.xml.html#/html/body/div/div/div/a/img at Line 69, column 78: The image source 'assets/images/hl7-be.png' cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/a/img at Line 61, column 78: The image source 'assets/images/hl7-be.png' cannot be resolved
+ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/a/img at Line 61, column 78: The image source 'assets/images/hl7-be.png' cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/a/img at Line 61, column 78: The image source 'assets/images/hl7-be.png' cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/a/img at Line 61, column 78: The image source 'assets/images/hl7-be.png' cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-my-ig.json ==
+ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: my-ig/http://example.com/fhir/example
+ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig: URL Mismatch http://example.com/fhir/example/ImplementationGuide/my-ig vs http://example.com/fhir/example
+== fsh-generated/resources/StructureDefinition-KenyaClaim.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/KenyaClaim'): The Implementation Guide contains no examples for this profile

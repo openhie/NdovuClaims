@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "my-ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.com/fhir/example",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
+  },
+  {
+    "id" : "KenyaClaim",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/KenyaClaim",
+    "version" : "1.0.0",
+    "name" : "KenyaClaim"
+  }
+]

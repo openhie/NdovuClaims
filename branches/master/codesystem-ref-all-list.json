@@ -1,0 +1,352 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/claim-use",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Use",
+      "title" : "Use",
+      "description" : "The purpose of the Claim: predetermination, preauthorization, claim.",
+      "oids" : ["2.16.840.1.113883.4.642.4.545"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-claim-use.html" : "Use"
+    },
+    {
+      "url" : "http://hl7.org/fhir/fm-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FinancialResourceStatusCodes",
+      "title" : "Financial Resource Status Codes",
+      "description" : "This value set includes Status codes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.593"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-fm-status.html" : "Financial Resource Status Codes"
+    },
+    {
+      "url" : "http://hl7.org/fhir/sid/ex-icd-10-procedures",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ICD-10ProcedureCodes",
+      "title" : "ICD-10 Procedure Codes",
+      "description" : "This value set includes sample ICD-10 Procedure codes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.575"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-icd-10-procedures.html" : "ICD-10 Procedure Codes"
+    },
+    {
+      "url" : "http://hl7.org/fhir/sid/icd-10",
+      "version" : "2.1.1",
+      "status" : "retired",
+      "name" : "Icd10",
+      "title" : "ICD-10",
+      "description" : "International Classification of Diseases revision 10 (ICD 10)",
+      "oids" : ["2.16.840.1.113883.6.3"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-icd-10.html" : "ICD-10 Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/FDI-surface",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SurfaceCodes",
+      "title" : "Surface Codes",
+      "description" : "This value set includes a smattering of FDI tooth surface codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1154"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-surface.html" : "Surface Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/claim-exception",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ExceptionCodes",
+      "title" : "Exception Codes",
+      "description" : "This value set includes sample Exception codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1162"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-claim-exception.html" : "Exception Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/claim-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ClaimTypeCodes",
+      "title" : "Claim Type Codes",
+      "description" : "This value set includes Claim Type codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1156"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-claim-type.html" : "Claim Type Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/claimcareteamrole",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "ClaimCareTeamRoleCodes",
+      "title" : "Claim Care Team Role Codes",
+      "description" : "Claim roles of the care team members providing products and services.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1165"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-claim-careteamrole.html" : "Claim Care Team Role Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ClaimInformationCategoryCodes",
+      "title" : "Claim Information Category Codes",
+      "description" : "This value set includes sample Information Category codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1163"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-claim-informationcategory.html" : "Claim Information Category Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/ex-USCLS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "USCLSCodes",
+      "title" : "USCLS Codes",
+      "description" : "This value set includes a smattering of USCLS codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1153"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-service-uscls.html" : "USCLS Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BenefitCategoryCodes",
+      "title" : "Benefit Category Codes",
+      "description" : "This value set includes examples of Benefit Category codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1175"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-ex-benefitcategory.html" : "Benefit Category Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/ex-claimsubtype",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ExampleClaimSubTypeCodes",
+      "title" : "Example Claim SubType Codes",
+      "description" : "This value set includes sample Claim SubType codes which are used to distinguish the claim types for example within type institutional there may be subtypes for emergency services, bed stay and transportation.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1158"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-claim-subtype.html" : "Example Claim SubType Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/ex-diagnosis-on-admission",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ExampleDiagnosisOnAdmissionCodes",
+      "title" : "Example Diagnosis on Admission Codes",
+      "description" : "This value set includes example Diagnosis on Admission codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1170"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-ex-diagnosis-on-admission.html" : "Example Diagnosis on Admission Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/ex-diagnosisrelatedgroup",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ExampleDiagnosisRelatedGroupCodes",
+      "title" : "Example Diagnosis Related Group Codes",
+      "description" : "This value set includes example Diagnosis Related Group codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1166"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-ex-diagnosisrelatedgroup.html" : "Example Diagnosis Related Group Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/ex-diagnosistype",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ExampleDiagnosisTypeCodes",
+      "title" : "Example Diagnosis Type Codes",
+      "description" : "This value set includes example Diagnosis Type codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1167"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-ex-diagnosistype.html" : "Example Diagnosis Type Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/ex-procedure-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ExampleProcedureTypeCodes",
+      "title" : "Example Procedure Type Codes",
+      "description" : "This value set includes example Procedure Type codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1388"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-ex-procedure-type.html" : "Example Procedure Type Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/ex-programcode",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ExampleProgramReasonCodes",
+      "title" : "Example Program Reason Codes",
+      "description" : "This value set includes sample Program Reason Span codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1161"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-ex-program-code.html" : "Example Program Reason Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/ex-providerqualification",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ExampleProviderQualificationCodes",
+      "title" : "Example Provider Qualification Codes",
+      "description" : "This value set includes sample Provider Qualification codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1160"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-provider-qualification.html" : "Example Provider Qualification Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/ex-relatedclaimrelationship",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ExampleRelatedClaimRelationshipCodes",
+      "title" : "Example Related Claim Relationship Codes",
+      "description" : "This value set includes sample Related Claim Relationship codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1159"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-related-claim-relationship.html" : "Example Related Claim Relationship Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/ex-revenue-center",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ExampleRevenueCenterCodes",
+      "title" : "Example Revenue Center Codes",
+      "description" : "This value set includes sample Revenue Center codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1168"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-ex-revenue-center.html" : "Example Revenue Center Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/ex-serviceplace",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ExampleServicePlaceCodes",
+      "title" : "Example Service Place Codes",
+      "description" : "This value set includes a smattering of Service Place codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1157"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-service-place.html" : "Example Service Place Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "OralSiteCodes",
+      "title" : "Oral Site Codes",
+      "description" : "This value set includes a smattering of FDI oral site codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1152"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-tooth.html" : "Oral Site Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/fundsreserve",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "FundsReservationCodes",
+      "title" : "Funds Reservation Codes",
+      "description" : "This value set includes sample funds reservation type codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1051"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-fundsreserve.html" : "FundsReserve"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/missingtoothreason",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "MissingToothReasonCodes",
+      "title" : "Missing Tooth Reason Codes",
+      "description" : "This value set includes sample Missing Tooth Reason codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1150"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-missing-tooth-reason.html" : "Missing Tooth Reason Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/modifiers",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ModifierTypeCodes",
+      "title" : "Modifier type Codes",
+      "description" : "This value set includes sample Modifier type codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1151"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-claim-modifiers.html" : "Modifier type Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/payeetype",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "ClaimPayeeTypeCodes",
+      "title" : "Payee Type Codes",
+      "description" : "Codes indicating the type of party to be reimbursed for cost of products and services.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1050"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-payeetype.html" : "PayeeType"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/processpriority",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ProcessPriorityCodes",
+      "title" : "Process Priority Codes",
+      "description" : "This value set includes the financial processing priority codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1155"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-process-priority.html" : "Process Priority Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "version" : "8.0.1",
+      "status" : "active",
+      "name" : "ActCode",
+      "title" : "ActCode",
+      "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.\r\n\r\n*Constraints:* The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems. The coding system will depend on the class of Act, such as LOINC for observations, etc.\r\n\r\nConceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure.\r\n\r\nAct.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code \"potassium\" together with and Act.classCode for \"laboratory observation\" to somehow mean \"potassium laboratory observation\" and then use the same Act.code for \"potassium\" together with Act.classCode for \"medication\" to mean \"substitution of potassium\". This mutually modifying use of Act.code and Act.classCode is not permitted.",
+      "oids" : ["2.16.840.1.113883.5.4"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/5.3.0/ValueSet-v3-ActIncidentCode.html" : "ActIncidentCode"
+    },
+    {
+      "url" : "urn:ietf:bcp:47",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "Ietf3066",
+      "title" : "Tags for the Identification of Languages",
+      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+      "oids" : ["2.16.840.1.113883.6.121"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
+    }
+  ]
+}

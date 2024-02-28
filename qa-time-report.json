@@ -1,0 +1,118 @@
+{
+  "date" : "Wed, 28 Feb, 2024 09:08:34 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-my-ig.json",
+      "size" : 1981,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 37,
+          "length" : 52
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 38,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 90
+        },
+        {
+          "activity" : "validate",
+          "start" : 40,
+          "length" : 720
+        },
+        {
+          "activity" : "generate1",
+          "start" : 40,
+          "length" : 80
+        },
+        {
+          "activity" : "generate2",
+          "start" : 42,
+          "length" : 66
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 50,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 53,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-KenyaClaim.json",
+      "size" : 948,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 37,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 37,
+          "length" : 17
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 37,
+          "length" : 396
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 38,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 288
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 1346
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 40,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 40,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 40,
+          "length" : 571
+        },
+        {
+          "activity" : "generate2",
+          "start" : 42,
+          "length" : 2690
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 50,
+          "length" : 19
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 53,
+          "length" : 2
+        }
+      ]
+    }
+  ]
+}
